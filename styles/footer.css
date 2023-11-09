@@ -1,0 +1,147 @@
+footer{
+    background-color: black;
+    margin-top: 10rem;
+    width: 100%;
+    height: 100%;
+}
+
+.col-2 p{
+    margin: 0;
+}
+
+.footer-btn{
+    color: white;
+    border: solid rgb(118, 117, 117);
+    margin-top: 4rem;
+    font-family: 'Khand',sans-serif;
+    font-size: 18px;
+    height: 40px;
+}
+
+.footer-btn:hover{
+    color: rgb(235, 97, 0);
+    border: 2px solid rgb(235, 97, 0);
+}
+
+.footer-links{
+    font-family: 'Khand',sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 70px;
+    
+}
+
+.company-1,
+.company-2,
+.company-3{
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.harley:hover,
+.race:hover,
+.europe:hover,
+.company:hover,
+.company-1:hover,
+.company-2:hover,
+.company-3:hover,
+.privacy:hover{
+    color: rgb(235, 97, 0);
+    cursor: pointer;
+}
+
+.details p{
+    margin: 0;
+    font-size: 14px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 700;
+}
+
+.footer-img{
+    margin-top: 80px;
+    margin-bottom: 25px;
+}
+
+.copy-wright{
+    font-size: 14px;
+    color: #4c4c4c;
+    line-height: 1;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+/* for screen size 868px */
+
+@media (max-width:868px) {
+    footer{
+        width: 100%;
+        height: 100%;
+    }
+
+    .footer-btn{
+        margin-top: 20px;
+    
+        width: 85%;
+    }
+
+    .footer-links{
+        margin-top: 0;
+       
+    }
+
+    .footer-links .harley{
+        margin-top: 20px;
+    }
+    
+    .footer-links p{
+        border-bottom: 1px solid #4c4c4c;
+        width: 100%;
+    }
+
+    .footer-links .company-1,
+    .footer-links .company-2,
+    .footer-links .company-3{
+        border: none;
+        font-weight: lighter;
+        
+    }
+
+    .harley:hover,
+    .race:hover,
+    .europe:hover,
+    .company:hover,
+    .company-1:hover,
+    .company-2:hover,
+    .company-3:hover,
+    .privacy:hover{
+        color: rgb(225, 225, 225);
+        cursor: pointer;
+    }
+
+    .footer-btn:hover{
+        color: rgb(225, 225, 225);
+        border: 2px solid rgb(78, 77, 77);
+    }
+
+    .footer-img{
+        margin-top: 50px;
+        
+    }
+
+    .copy-wright{
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+
+
+}
+
+@media (max-width:576px) {
+    .footer-img{
+        margin-top: 30px;
+    }
+    
+}
+
+

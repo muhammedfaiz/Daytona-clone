@@ -1,0 +1,148 @@
+.bg-card1{
+    background-image: url('../images/harley-card.jpg');
+}
+
+.bg-card2{
+    background-image: url('../images/racing.jpg');
+}
+
+.bg-card3{
+    background-image: url('../images/euro.jpg');
+}
+
+.bg-card1,
+.bg-card2,
+.bg-card3{
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 30.5vw;
+    height: 100vh;
+}
+
+.row-card{
+    margin-top: 200px;
+}
+
+.bg-card1 h2,
+.bg-card2 h2,
+.bg-card3 h2{
+    margin-top: 3em;
+    font-size: 56px;
+    font-family: 'Khand',sans-serif;
+}
+
+.orange-line{
+    background-color: rgb(235, 97, 0);
+    width: 35px;
+    height: 2px;
+    
+}
+
+.bg-company .orange-line{
+    background-color: rgb(235, 97, 0);
+    width: 35px;
+    height: 2px;
+    
+}
+
+.read-more{
+    background-color: rgb(235, 97, 0);
+    font-family: 'Khand',sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 8px 24px;
+
+}
+
+.read-more-outline{
+    color: rgb(235, 97, 0);
+    background-color: transparent;
+    border: 3px solid rgb(235, 97, 0);
+    font-family: 'Khand',sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    
+    margin-top: 20px;
+    padding: 8px 65px;
+}
+
+
+
+.bg-card1 p,
+.bg-card2 p,
+.bg-card3 p{
+    font-size: 16px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 700;
+}
+
+.bg-card1:hover .read-more,
+.bg-card2:hover .read-more,
+.bg-card3:hover .read-more{
+    color: white;
+    background-color: black;
+}
+
+.bg-company{
+    background-image: url('../images/company.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+}
+
+.row-card-cmpny{
+    margin-top: 100px;
+}
+
+.bg-company h2{
+    font-family: 'Khand',sans-serif;
+    font-size: 74px;
+    margin-top: 80px;
+}
+
+.bg-company:hover .read-more-outline{
+    color: white;
+    background-color: black;
+    border: none;
+}
+/* for screen 868px */
+
+@media (max-width:868px){
+    .bg-card1,
+    .bg-card2,
+    .bg-card3{
+        width: 96vw;
+        height: 30vh;
+    }
+
+    .bg-card1 h2,
+    .bg-card2 h2,
+    .bg-card3 h2{
+        font-size: 36px;
+    }
+    
+    .bg-company{
+        width: 100%;
+        height: 30vh;
+    }
+
+    
+}
+
+/* for 576px */
+
+@media (max-width:576px) {
+    .bg-card1,
+    .bg-card2,
+    .bg-card3{
+        width: 96vw;
+        height: 50vh;
+    }   
+
+    .bg-company{
+        width: 100%;
+        height: 40vh;
+    }
+
+}
